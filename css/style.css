@@ -10,7 +10,7 @@ body{
 
 /* Contenedor Header con bg Img */
 .contenedor-header{
-    height: 10vh;
+    height: 100vh;
     width: 100%;
     background-image: url(../img/bgveggie.jpg);
     background-position: center;
@@ -64,7 +64,7 @@ li,a{
 }
 
 /* Transition Logo */
-/* .logo{
+.logo{
     width: 20em;
     height: 10em;
     font-size: 1.5em;
@@ -79,7 +79,7 @@ li,a{
     animation-delay: 0.5s;
     opacity: -1;
     border: 1px solid black;
-} */
+}
 
 .logo,p{
     margin-top: -1em;
