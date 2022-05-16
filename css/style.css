@@ -4,6 +4,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Merriweather', serif;
 }
 
 /* Contenedor Header con bg Img */
@@ -14,6 +15,7 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 }
 
 /* Navbar */
@@ -29,7 +31,6 @@ body{
     align-items: center;
     justify-content: space-around;
     list-style: none;
-    font-family: 'Merriweather', serif;
     color: rgba(66, 66, 66, 0.775);
     font-weight: 500;
 }
@@ -59,4 +60,45 @@ li,a{
 .navbar-link:hover:after{
     width: 100%;
     color: black;
+}
+
+/* Transition Logo */
+.logo{
+    width: 20em;
+    height: 10em;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10em;
+    right: 10em;
+    animation: sliderLogo 3s forwards;
+    animation-delay: 0.5s;
+    opacity: -1;
+    border: 1px solid black;
+}
+
+.logo,p{
+    margin-top: -1em;
+}
+
+
+
+/* KeyFrames Translate Logo Header */
+@keyframes sliderLogo {
+    0%{
+        transform: translateX(40%);
+        color: rgba(0, 0, 0, 0.136);
+        opacity: -1;
+    }
+    10%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(0%);
+        color: rgb(0, 0, 0);
+        opacity: 1;
+    }
 }
