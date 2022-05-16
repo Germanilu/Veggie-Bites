@@ -1,0 +1,62 @@
+/* Google Font Merriweather */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor Header con bg Img */
+.contenedor-header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(/img/bgveggie.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Navbar */
+.navbar{
+    height: 3em;
+    width: 60em;
+    float: right;
+    margin-top: 0.5em;
+}
+
+.lista-desordenada-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    font-family: 'Merriweather', serif;
+    color: rgba(66, 66, 66, 0.775);
+    font-weight: 500;
+}
+
+li,a{
+    text-decoration: none;
+    color: inherit;
+    position: relative;
+}
+
+/* Efecto transición borderbottom Navbar */
+.navbar-link::after{
+    content: "";
+    position: absolute;
+    background-color: #c04038;
+    height: 0.1em;
+    left: 0;
+    width: 0%;
+    bottom: -0.2em;
+    transition: 0.5s;
+}
+
+.navbar-link:hover{
+    color: black;
+}
+
+.navbar-link:hover:after{
+    width: 100%;
+    color: black;
+}
