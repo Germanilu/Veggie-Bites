@@ -10,7 +10,7 @@ body{
 .contenedor-header{
     height: 100vh;
     width: 100%;
-    background-image: url(/img/bgveggie.jpg);
+    background-image: url(../img/bgveggie.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
