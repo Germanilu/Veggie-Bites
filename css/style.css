@@ -105,7 +105,6 @@ li,a{
 }
 /* Contenedor img + special txt */
 .special{
-    border: 1px solid black;
     display: flex; 
 }
 
@@ -122,9 +121,17 @@ li,a{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 0em 0.5em;
+    padding: 0em 1em;
 }
 
+.titulo-special{
+    font-size: 1em;
+}
+
+.descripcion-special{
+    font-size: 0.8em;
+    text-align: center;
+}
 
 
 
