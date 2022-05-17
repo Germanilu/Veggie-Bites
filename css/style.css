@@ -113,6 +113,7 @@ li,a{
     width: 50%;
     object-fit: cover;
     object-position: center;  
+    z-index: -1;
 }
 
 /* Contenedor texto de cada special con flex */
@@ -133,6 +134,15 @@ li,a{
     text-align: center;
 }
 
+
+/* Efecto grid special hover bg color */
+.bg-effect-img:hover{
+    background-color: #e9b61d3f;
+}
+
+.bg-effect-img:hover .bg-effect-txt{
+    background-color: #e9b61dc4;
+}
 
 
 
