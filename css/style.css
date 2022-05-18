@@ -146,6 +146,7 @@ li,a{
     transition: 0.5s;
 }
 
+/* Contenedor Sobre Nosotros */
 
 .contenedor-sobreNosotros{
     background-color: #c04138d6;
@@ -160,15 +161,16 @@ li,a{
 
 .titulo-sobrenosotros{
     font-weight: 700;
+    animation: showUpTitle 4s forwards;
+    opacity: -1;
 }
 
 .parrafo-sobrenosotros{
     margin-top: 1em;
     text-align: center;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.2em;
+    animation: slideLetter 4s ease-out;
 }
-
-
 
 
 /* KeyFrames Translate Logo Header */
@@ -185,5 +187,29 @@ li,a{
         transform: translateX(0%);
         color: rgb(0, 0, 0);
         opacity: 1;
+    }
+}
+
+/* KeyFrames Sobre Nosotros */
+/* Need to apply js to start the animation at scroll */
+@keyframes showUpTitle {
+    0%{
+        opacity: -1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+@keyframes slideLetter {
+    0%{
+        letter-spacing: 0.5em;
+    }
+    80%{
+        letter-spacing: 0.15em;
+    }
+    100%{
+        letter-spacing: 0.2em;
     }
 }
