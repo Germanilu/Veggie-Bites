@@ -215,6 +215,7 @@ li,a{
   position: absolute;
   right: 10em;
   top: 10em;
+  
 }
 
 .carta{
@@ -225,6 +226,9 @@ li,a{
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: -1;
+    animation: sliderLogoCarta 4s forwards;
+    animation-delay: 1s;
 }
 
 .contenedor-menu{
