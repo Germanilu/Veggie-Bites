@@ -147,6 +147,29 @@ li,a{
 }
 
 
+.contenedor-sobreNosotros{
+    background-color: #c04138d6;
+    width: 100%;
+    height: 25em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.titulo-sobrenosotros{
+    font-weight: 700;
+}
+
+.parrafo-sobrenosotros{
+    margin-top: 1em;
+    text-align: center;
+    letter-spacing: 0.5em;
+}
+
+
+
 
 /* KeyFrames Translate Logo Header */
 @keyframes sliderLogo {
