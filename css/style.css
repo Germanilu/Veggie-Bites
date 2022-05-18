@@ -226,9 +226,9 @@ li,a{
     display: flex;
     align-items: center;
     justify-content: center;
-    opacity: -1;
-    animation: sliderLogoCarta 4s forwards;
-    animation-delay: 1s;
+    /* opacity: -1;
+    /* animation: sliderLogoCarta 4s forwards;
+    animation-delay: 1s; */ 
 }
 
 .contenedor-menu{
@@ -251,8 +251,38 @@ li,a{
 
 .contenedor-menu-carta{
     width: 95%;
-    height: 80%;
-    border: 1px solid black;
+    height: 80%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.tabla-menu{
+    width: 100%;
+}
+
+.columna1{
+    width: 95%;
+}
+.columna2{
+    width: 5%;
+}
+
+.linea1{
+   border-bottom: 1px solid black;
+   padding-bottom: 5px;
+   font-size: 18px;
+   font-weight: 500;
+   color: #c17631;
+}
+.descripcion-plato{
+    padding: 5px 0px 10px 0px;
+    font-size: 14px;
+    font-weight: 300;
+    color: #565751;
+}
+
+.precio-plato{
+    font-size: 14px;
 }
 
 
