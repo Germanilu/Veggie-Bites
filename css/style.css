@@ -234,7 +234,6 @@ li,a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 
 .menu-links{
@@ -245,9 +244,14 @@ li,a{
     justify-content: space-around;
     margin-top: 2em;
 }
-.navbar-menu{
-    
+
+.contenedor-menu-carta{
+    width: 95%;
+    height: 80%;
+    border: 1px solid black;
 }
+
+
 
 /* KeyFrames Translate Logo Header-Home */
 @keyframes sliderLogo {

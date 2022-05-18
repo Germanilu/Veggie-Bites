@@ -29,16 +29,34 @@
             <div class="carta">
                 <div class="contenedor-menu">
                     <ul class="menu-links lista-desordenada-navbar ">
-                        <li><a href="#" class="navbar-menu navbar-link">Entrantes</a></li>
-                        <li><a href="#" class="navbar-menu navbar-link">Primeros</a></li>
-                        <li><a href="#" class="navbar-menu navbar-link">Segundos</a></li>
-                        <li><a href="#" class="navbar-menu navbar-link">Postres</a></li>
+                        <li><a href="#entrantes" class="navbar-link" onclick="MostrarEntrantes('entrantes')">Entrantes</a></li>
+                        <li><a href="#primeros" class="navbar-link" onclick="MostrarPrimeros('primeros')">Primeros</a></li>
+                        <li><a href="#segundos" class="navbar-link" onclick="MostrarSegundos('segundos')">Segundos</a></li>
+                        <li><a href="#postres" class="navbar-link" onclick="MostrarPostres('postres')">Postres</a></li>
                     </ul>
+
+                    <div id="entrantes" class="contenedor-menu-carta">
+                        Entrantes
+                    </div>
+
+                    <div id="primeros" class="contenedor-menu-carta" style=" display:none;">
+                        Primeros
+                    </div>
+                    <div id="segundos" class="contenedor-menu-carta" style=" display:none;">
+                        Segundos
+                    </div>
+                    <div id="postres" class="contenedor-menu-carta" style=" display:none;">
+                        Postres
+                    </div>
                 </div>
+               
             </div>
         </div>
 
         
     </div>
+
+
+    <script src="js/menu.js"></script>
 </body>
 </html>
