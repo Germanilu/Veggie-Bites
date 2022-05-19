@@ -122,6 +122,7 @@ li,a{
 
 /* Contenedor texto de cada special con flex */
 .texto-special{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,7 +176,7 @@ li,a{
     margin-top: 1em;
     text-align: center;
     letter-spacing: 0.2em;
-    animation: slideLetter 4s ease-out;
+    animation: slideLetter 4s ease-in;
 }
 
 
@@ -421,9 +422,6 @@ li,a{
 @keyframes slideLetter {
     0%{
         letter-spacing: 0.5em;
-    }
-    80%{
-        letter-spacing: 0.15em;
     }
     100%{
         letter-spacing: 0.2em;

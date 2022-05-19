@@ -1,6 +1,7 @@
 // Scroll Reveal 
-ScrollReveal().reveal('.reveal-d500', {
-     delay: 500,
+
+ScrollReveal().reveal('.reveal-d300', {
+     delay: 300,
      duration: 3000    
 });
 
@@ -16,3 +17,7 @@ ScrollReveal().reveal('.reveal-d1300', {
 
 });
 
+ScrollReveal().reveal('.reveal-d1500', {
+    delay: 1500,
+    duration: 3000    
+});
