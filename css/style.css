@@ -1,6 +1,11 @@
 /* Google Font Merriweather */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap');
 
+/* HTML con scroll smooth, para dar efecto scroll smooth */
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -302,7 +307,7 @@ li,a{
 
 /* Contenedor contacto */
 .contenedor-contacto{
-    background-color: rgba(0, 0, 0, 0.244);
+    background-color: rgba(0, 0, 0, 0.177);
     border: 1px solid black;
     width: 40em;
     height: 30em;
