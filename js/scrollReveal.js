@@ -24,6 +24,11 @@ ScrollReveal().reveal('.reveal-d1500', {
 
 // Scroll Reveal Carta
 
+ScrollReveal().reveal('.reveal-d200', {
+    delay: 200,
+    duration: 3000    
+});
+
 ScrollReveal().reveal('.reveal-d500', {
     delay: 500,
     duration: 3000    
