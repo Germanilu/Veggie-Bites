@@ -24,7 +24,7 @@ body{
 }
 
 /* Navbar */
-.navbar{
+.navbar-principal{
     height: 3em;
     width: 60em;
     float: right;
@@ -68,7 +68,7 @@ li,a{
 }
 
 /* Transition Logo */
-.logo{
+.logo-principal{
     width: 20em;
     height: 10em;
     font-size: 1.5em;
@@ -85,8 +85,8 @@ li,a{
     border: 1px solid black;
 }
 
-.logo,p{
-    margin-top: -1em;
+.parrafo-logo-principal{
+    margin-top: 1em;
 }
 
 /* Special */
@@ -155,16 +155,41 @@ li,a{
 
 /* Contenedor Sobre Nosotros */
 
+
+
 .contenedor-sobreNosotros{
     background-color: #c04138d6;
     width: 100%;
     height: 25em;
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+
+
+.sobrenosotros-texto{
+    width: 50%;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2em;
 }
+
+.sobrenosotros-carousel{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
 
 .titulo-sobrenosotros{
     font-weight: 700;
