@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carta Veggie Bites</title>
     <link rel="stylesheet" href="css/style.css"/>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
     <!-- Contenedor Header con bg img -->
@@ -27,7 +30,7 @@
                 <p>By Chef <br> Jean-Michel Monroe</p>
             </div>
             <!-- Contenedor carta -->
-            <div class="carta">
+            <div class="carta reveal-d300">
                 <div class="contenedor-menu">
                     <ul class="menu-links lista-desordenada-navbar ">
                         <li><a class="navbar-link" onclick="MostrarEntrantes('entrantes')">Entrantes</a></li>
@@ -38,16 +41,16 @@
                     <!-- Carta Entrantes -->
                     <div id="entrantes" class="contenedor-menu-carta">
                         <table class="tabla-menu">
-                            <tr><td class="linea1 columna1">TARRINA DE PESCADO AHUMADA CON RICOTTA</td> <td class="columna2 precio-plato">13€</td></tr>
-                            <td class="descripcion-plato">ricotta, chalotes , pescado del dia con hierbas ahumadas.</td>
-                            <tr><td class="linea1">BUÑUELOS DE SAMPHIRE CON CEVICHE DE HINOJO</td> <td class="precio-plato">14€</td></tr>
-                            <td class="descripcion-plato">buñuelos de gambas con hinojo y aceite trufado.</td>
-                            <tr><td class="linea1">FLORES DE CALABACÍN A LA SARTÉN</td> <td class="precio-plato">16€</td></tr>
-                            <td class="descripcion-plato">Flores de calabacín rellenos de queso pasados a la sartén.</td>
-                            <tr><td class="linea1">TARTARE DE VERDURAS CON CREMA DE HUMMUS</td> <td class="precio-plato">9€</td></tr>
-                            <td class="descripcion-plato">Tartare de verduras del dia con garbanzos y especias.</td>
-                            <tr><td class="linea1">NACHOS DE PATATA CON QUESO FUNDIDO Y GUACAMOLE</td> <td class="precio-plato">12€</td></tr>
-                            <td class="descripcion-plato">Guacamole fresco, salsa picante, nachos de patata y queso fundido.</td>
+                            <tr><td class="linea1 columna1 reveal-d500">TARRINA DE PESCADO AHUMADA CON RICOTTA</td> <td class="columna2 precio-plato reveal-d1500">13€</td></tr>
+                            <td class="descripcion-plato reveal-d600">ricotta, chalotes , pescado del dia con hierbas ahumadas.</td>
+                            <tr><td class="linea1 reveal-d600">BUÑUELOS DE SAMPHIRE CON CEVICHE DE HINOJO</td> <td class="precio-plato reveal-d1500">14€</td></tr>
+                            <td class="descripcion-plato reveal-d700">buñuelos de gambas con hinojo y aceite trufado.</td>
+                            <tr><td class="linea1 reveal-d700">FLORES DE CALABACÍN A LA SARTÉN</td> <td class="precio-plato reveal-d1500">16€</td></tr>
+                            <td class="descripcion-plato reveal-d800">Flores de calabacín rellenos de queso pasados a la sartén.</td>
+                            <tr><td class="linea1 reveal-d800">TARTARE DE VERDURAS CON CREMA DE HUMMUS</td> <td class="precio-plato reveal-d1500">9€</td></tr>
+                            <td class="descripcion-plato reveal-d900">Tartare de verduras del dia con garbanzos y especias.</td>
+                            <tr><td class="linea1 reveal-d900">NACHOS DE PATATA CON QUESO FUNDIDO Y GUACAMOLE</td> <td class="precio-plato reveal-d1500">12€</td></tr>
+                            <td class="descripcion-plato reveal-d1000">Guacamole fresco, salsa picante, nachos de patata y queso fundido.</td>
                         </table>
                     </div>
                     <!-- Carta Primeros -->
@@ -102,5 +105,6 @@
 
 
     <script src="js/menu.js"></script>
+    <script src="js/scrollReveal.js"></script>
 </body>
 </html>
