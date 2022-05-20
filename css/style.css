@@ -552,6 +552,20 @@ li,a{
 
 /* Media Query till 1024px */
 
+
+@media (max-width: 1439px){
+/* Carta  */
+    .contenedor-carta{
+        justify-content: center;
+        top: 5em;
+    }
+
+    .carta{
+        margin-top: 1em;
+    }
+    
+}
+
 @media (max-width: 1348px){
     .titulo-special{
         font-size: 0.8em;
@@ -568,10 +582,64 @@ li,a{
 
 
 @media (max-width: 1246px){
+
+    /* Carta.html */
+
+    .logo-carta{
+        width: 15em;
+        height: 10em;
+        font-size: 1.5em;
+    }
+
+    .logo,p{
+        margin-top: -1em;
+        text-align: center;
+        font-size: 0.8em;
+    }
+    .logo-carta h1{
+        font-size: 1.5em;
+    }
+
+    .signature{
+        width: 5em;
+    }
+
+    .contenedor-menu{
+        width: 85%;
+        height: 75%;
+
+    }
+
+    .menu-links{
+        margin-top: 0em;
+        margin-bottom: 3em;
+        margin-top: 0.3em;
+    }
+
+    .linea1{
+
+        font-size: 14px;
+
+     }
+
+     .descripcion-plato{
+        font-size: 12px;
+
+    }
+
+    .carta{
+        width: 40em;
+        
+    }
+
+
+    /* Index.html */
     .logo-principal{
         width: 15em;
         height: 8em;
     }
+
+   
 }
 
 @media (max-width: 1083px){
@@ -582,6 +650,23 @@ li,a{
 }
 
 @media (max-width: 1024px){
+
+    /* Carta.html */
+
+    .menu-links{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .carta{
+        width: 30em;
+        height: 40em;
+        
+    }
+
+
+
+    /* index.html */
     .special-grid{
         grid-template-columns: repeat(2,50%);
         grid-template-rows: repeat(3,33%);
@@ -651,6 +736,13 @@ li,a{
 }
 
 @media (max-width: 707px){
+
+    /* Carta.html */
+
+
+    
+
+    /* index.html */
     .special-grid{
         grid-template-columns: repeat(1,70%);
         grid-template-rows: repeat(6,33%);
