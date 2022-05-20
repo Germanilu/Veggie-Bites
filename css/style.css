@@ -82,7 +82,7 @@ li,a{
     animation: sliderLogo 3s forwards;
     animation-delay: 0.5s;
     opacity: -1;
-    border: 1px solid black;
+    border: 0.15em solid black;
 }
 
 .parrafo-logo-principal{
@@ -91,13 +91,17 @@ li,a{
 
 /* Special */
 .contenedor-special{
-    height: 40em;
+    height: 50em;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
 
+.titulo h1{
+    border: 0.02em solid black;
+    padding: 0.5em;
+}
 /* Division grid de los especiales del dia */
 .special-grid{
     height: 25em;
@@ -158,9 +162,9 @@ li,a{
 
 
 .contenedor-sobreNosotros{
-    background-color: #c04138d6;
+    background-color: #c04138b5;
     width: 100%;
-    height: 45em;
+    height: 50em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -178,9 +182,13 @@ li,a{
 }
 
 .titulo-sobrenosotros{
-    font-weight: 700;
+    margin-top: 1em;
+    font-weight: 500;
     animation: showUpTitle 4s forwards;
     opacity: -1;
+    border: 1px solid white;
+    letter-spacing: 0.3em;
+    padding: 0.5em;
 }
 
 .parrafo-sobrenosotros{
@@ -443,7 +451,7 @@ li,a{
 
 @keyframes slideLetter {
     0%{
-        letter-spacing: 0.5em;
+        letter-spacing: 0.3em;
     }
     100%{
         letter-spacing: 0.2em;
