@@ -21,6 +21,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+
 }
 
 /* Navbar */
@@ -38,6 +39,8 @@ body{
     list-style: none;
     color: rgba(66, 66, 66, 0.775);
     font-weight: 500;
+    padding: 0;
+    margin: 0em 0em;
 }
 
 li,a{
@@ -627,5 +630,70 @@ li,a{
 
     .precio-special{
         font-size: 0.8em;
+    }
+}
+
+@media (max-width: 707px){
+    .navbar-principal{
+        width: 90%;
+    }
+
+    .logo-principal{
+        width: 15em;
+        height: 8em;
+        font-size: 1.3em;
+        right: 5em;
+
+    }
+}
+
+@media (max-width: 707px){
+    .special-grid{
+        grid-template-columns: repeat(1,70%);
+        grid-template-rows: repeat(6,33%);
+    }
+
+    .contenedor-special{
+        justify-content: flex-start;
+    }
+
+    .titulo h1{
+        margin: 1em 0em;
+    }
+}
+
+@media (max-width: 707px){
+    .navbar-principal{
+        width: 100%;
+    }
+
+    .lista-desordenada-navbar{
+        justify-content: space-between;
+    }
+
+    .contenedor-header{
+        background-image: url(../img/pexels-karolina-grabowska-4198042.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-principal{
+        width: 16.5em;
+        height: 8em;
+        font-size: 1.3em;
+        position: unset;
+        margin-bottom: 11em;
+        background-color: rgba(177, 65, 65, 0.258);
+
+    }
+
+   
+}
+
+@media (max-width: 425px){
+    .lista-desordenada-navbar{
+        justify-content: space-around;              
     }
 }
