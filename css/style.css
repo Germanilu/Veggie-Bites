@@ -705,6 +705,21 @@ li,a{
 
 @media (max-width: 768px){
 
+    /* Carta.html */
+
+    .contenedor-carta{
+
+        right: 8em;
+
+        
+      }
+      
+
+
+
+
+    /* Index.html */
+
     .texto-special{
         padding: 0em 0.5em;
     }
@@ -739,8 +754,63 @@ li,a{
 
     /* Carta.html */
 
+    .contenedor-header-carta{
+        background-image: url(../img/cucharas.jpg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contenedor-carta{
+        justify-content: space-around;
+        position: unset;
+       
+        
+      }
+
+    .logo-carta{
+        width: 15em;
+        height: 10em;
+        font-size: 1.5em;
+        background-color: rgba(236, 236, 236, 0.573);
+    }
+
+
+
+    .contenedor-menu{
+        width: 95%;
+        height: 85%;
+
+    }
+
+    .menu-links{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .linea1{
+
+        font-size: 14px;
+        color: #c17631;
+        font-weight: 700;
+
+     }
+
+     .descripcion-plato{
+        font-size: 12px;
+       
+
+    }
 
     
+
+    .carta{
+        width: 30em;
+        height: 35em;
+        
+    }
+
 
     /* index.html */
     .special-grid{
@@ -798,15 +868,48 @@ li,a{
 
 }
 
-@media (max-width: 425px){
+@media (max-width: 426px){
+
+
+    /* Carta.html */
+    .carta{
+        width: 25em;
+        height: 40em;
+        border: none;
+        
+    }
+
+    .navbar-principal{
+        font-size: 0.8em;
+    }
+
+
+    /* Index.html */
     .lista-desordenada-navbar{
         justify-content: space-around;              
     }
 }
 
-@media (max-width: 375px){
-   
+@media (max-width: 376px){
+    /* Carta.html */
 
+    .logo-carta{
+        width: 10em;
+    }
+
+    .menu-links{
+        font-size: 0.8em;
+    }
+
+    .linea1{
+        font-size: 0.8em;
+    }
+
+    .carta{
+        width: 20em;        
+    }
+
+/* Index.html */
     .logo-principal{
         width: 14.5em;
     }
