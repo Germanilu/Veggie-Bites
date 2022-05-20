@@ -107,6 +107,8 @@ li,a{
 .titulo h1{
     border: 0.02em solid black;
     padding: 0.5em;
+    text-align: center;
+    
 }
 /* Division grid de los especiales del dia */
 .special-grid{
@@ -201,6 +203,7 @@ li,a{
     border: 1px solid white;
     letter-spacing: 0.3em;
     padding: 0.5em;
+    text-align: center;
 }
 
 .parrafo-sobrenosotros{
@@ -685,15 +688,62 @@ li,a{
         font-size: 1.3em;
         position: unset;
         margin-bottom: 11em;
-        background-color: rgba(177, 65, 65, 0.258);
+        background-color: rgba(169, 167, 167, 0.258);
 
     }
 
    
 }
 
+@media (max-width: 460px){
+    .special-grid{
+        grid-template-columns: repeat(1,100%);
+        grid-template-rows: repeat(6,33%);
+
+    }
+
+
+
+}
+
 @media (max-width: 425px){
     .lista-desordenada-navbar{
         justify-content: space-around;              
     }
+}
+
+@media (max-width: 375px){
+   
+
+    .logo-principal{
+        width: 14.5em;
+    }
+
+    .titulo h1{
+        font-size: unset;
+    }
+}
+
+@media (max-width: 320px){
+    .titulo h1{
+        margin: 2em 0em;
+    }
+
+    .titulo-special{
+        font-size: 0.7em;
+    }
+
+    .descripcion-special{
+        font-size: 0.6em;
+    }
+
+    .precio-special{
+        font-size: 0.7em;
+    }
+
+    .img-size{
+        height: 20em;
+    }
+
+    
 }
