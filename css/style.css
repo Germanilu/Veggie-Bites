@@ -544,7 +544,7 @@ li,a{
 }
 
 
-/* Media Query */
+/* Media Query till 1024px */
 
 @media (max-width: 1348px){
     .titulo-special{
@@ -556,7 +556,7 @@ li,a{
     }
 
     .precio-special{
-        font: 0.7em;
+        font-size: 0.8em;
     }
 }
 
@@ -573,8 +573,6 @@ li,a{
     .titulo-special{
         font-size: 0.75em;
     }
-
-  
 }
 
 @media (max-width: 1024px){
@@ -612,4 +610,22 @@ li,a{
         height: 25em;
     }
 
+}
+
+@media (max-width: 768px){
+
+    .texto-special{
+        padding: 0em 0.5em;
+    }
+    .titulo-special{
+        font-size: 0.8em;
+    }
+
+    .descripcion-special{
+        font-size: 0.7em;
+    }
+
+    .precio-special{
+        font-size: 0.8em;
+    }
 }
