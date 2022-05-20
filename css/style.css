@@ -340,7 +340,7 @@ li,a{
 
 /* Contenedor contacto */
 .contenedor-contacto{
-    background-color: rgba(0, 0, 0, 0.177);
+    background-color: rgba(0, 0, 0, 0.078);
     border: 1px solid black;
     width: 40em;
     height: 30em;
@@ -421,6 +421,7 @@ li,a{
     justify-content: center;
     
 }
+
 .opentable{
     width: 3em;
     height: 3em;
@@ -430,7 +431,6 @@ li,a{
     background-size: cover;
     border-radius: 1em;
 }
-
 
 
 /* Contenedor Social */
@@ -464,7 +464,19 @@ li,a{
     background-color: #e8e9eb;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+/* Contenedor Dirección */
+.contenedor-direccion{
+    width: 20%;
+    height: 80%;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .maps{
