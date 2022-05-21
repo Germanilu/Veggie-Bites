@@ -651,6 +651,23 @@ li,a{
 
 @media (max-width: 1024px){
 
+
+    /* Contacto.html */
+    .contenedor-contacto{
+        position: initial;
+        margin: 0 auto;
+    }
+    .contenedor-direccion{
+        width: 30%;
+    }
+
+    .maps{
+        width: 50%;
+
+    }
+
+
+
     /* Carta.html */
 
     .menu-links{
@@ -710,14 +727,7 @@ li,a{
     .contenedor-carta{
 
         right: 8em;
-
-        
       }
-      
-
-
-
-
     /* Index.html */
 
     .texto-special{
@@ -736,19 +746,7 @@ li,a{
     }
 }
 
-@media (max-width: 707px){
-    .navbar-principal{
-        width: 90%;
-    }
 
-    .logo-principal{
-        width: 15em;
-        height: 8em;
-        font-size: 1.3em;
-        right: 5em;
-
-    }
-}
 
 @media (max-width: 707px){
 
@@ -813,21 +811,7 @@ li,a{
 
 
     /* index.html */
-    .special-grid{
-        grid-template-columns: repeat(1,70%);
-        grid-template-rows: repeat(6,33%);
-    }
 
-    .contenedor-special{
-        justify-content: flex-start;
-    }
-
-    .titulo h1{
-        margin: 1em 0em;
-    }
-}
-
-@media (max-width: 707px){
     .navbar-principal{
         width: 100%;
     }
@@ -854,10 +838,103 @@ li,a{
 
     }
 
-   
+
+    .logo-principal{
+        width: 15em;
+        height: 8em;
+        font-size: 1.3em;
+        right: 5em;
+
+    }
+    .special-grid{
+        grid-template-columns: repeat(1,70%);
+        grid-template-rows: repeat(6,33%);
+    }
+
+    .contenedor-special{
+        justify-content: flex-start;
+    }
+
+    .titulo h1{
+        margin: 1em 0em;
+    }
 }
 
+
+
+@media (max-width: 668px){
+    
+    /* Contacto.html */
+    .contenedor-contacto{
+        width: 30em;
+        position: unset;
+    }
+
+    .contenedor-maps{
+        width: 100%;
+        height: 40em;
+        flex-direction: column;
+    }
+
+    .contenedor-direccion{
+        width: 70%;
+        height: 40%;
+
+}
+
+.maps{
+    width: 70%;
+    height: 50%;
+
+}
+
+
+}
+
+@media(max-width: 500px){
+    /* Contacto.html */
+
+    .contenedor-header-contacto{
+        height: 60em;
+    }
+    .contenedor-contacto{
+        width: 19em;
+        height: 50em;
+        position: unset;
+        justify-content: space-evenly;
+    }
+
+    .contenedor-info-veggie{
+        height: 20em;
+        flex-direction: column;
+        align-items: center;
+        border: unset;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+
+   
+    .contenedor-social{
+        margin-top: 10px;
+    }
+    .contenedor-info-veggie h1{
+        font-size: 1.3em;
+    }
+
+}
+
+
 @media (max-width: 460px){
+    /* Contacto.html */
+
+    .contenedor-direccion{
+        width: 90%;
+}
+    .maps{
+        width: 90%;
+    }
+
+    /* Index.html */
     .special-grid{
         grid-template-columns: repeat(1,100%);
         grid-template-rows: repeat(6,33%);
