@@ -32,7 +32,7 @@ body{
     margin-top: 0.5em;
 }
 
-.lista-desordenada-navbar, .lista-desordenada-navbar-menu {
+.lista-desordenada-navbar, .lista-desordenada-navbar-menu, .lista-desordenada-navbar-contacto {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -370,6 +370,7 @@ li,a{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    margin-top: 0;
 }
 
 .-titulo-contacto{
@@ -900,7 +901,7 @@ li,a{
     /* Contacto.html */
 
     .contenedor-header-contacto{
-        height: 60em;
+        height: 65em;
     }
     .contenedor-contacto{
         width: 19em;
@@ -1001,12 +1002,27 @@ li,a{
     }
 
     .navbar-principal{
-        width: 50%;
+        width: 100%;
+        margin-bottom: 12em;
     }
 
-    /* *{
-        outline: 1px solid red;
-    } */
+    /* Contacto */
+    .lista-desordenada-navbar-contacto{
+        height: 15em;
+        width: 100%;
+        display: none;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        list-style: none;
+        color: rgba(66, 66, 66, 0.775);
+        font-weight: 500;
+        padding: 0;
+        margin: 0em 0em;
+    }
+
+  
+  
 }
 
 @media (max-width: 376px){
