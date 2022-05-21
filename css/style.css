@@ -984,7 +984,7 @@ li,a{
     }
 
     .lista-desordenada-navbar{
-        height: 20em;
+        height: 15em;
         width: 100%;
         display: none;
         align-items: center;
@@ -1001,9 +1001,9 @@ li,a{
         width: 50%;
     }
 
-    *{
+    /* *{
         outline: 1px solid red;
-    }
+    } */
 }
 
 @media (max-width: 376px){
