@@ -1,4 +1,4 @@
-### TOC
+#### TOC
 - [:fork_and_knife: Proyecto Carta Restaurante Digítal HTML / CSS / JS](#fork_and_knife-proyecto-carta-restaurante-digítal-html--css--js)
   - [:avocado: Bienvenido al restaurante Veggie Bites :avocado:](#avocado-bienvenido-al-restaurante-veggie-bites-avocado)
   - [Realización de la página :building_construction:](#realización-de-la-página-building_construction)
@@ -9,7 +9,7 @@
     - [Carta](#carta)
     - [Responsive](#responsive-1)
     - [Contacto](#contacto)
-    - [Resultado Final](#resultado-final)
+  - [Resultado Final](#resultado-final)
   - [Autor](#autor)
       - [Luciano Germani :it:](#luciano-germani-it)
 
@@ -71,7 +71,7 @@ En el apartado de contactos he añadido un mapa usando un iframe de Google maps 
 
 --------------------------
 
-### Resultado Final
+## Resultado Final
 
 **Puedes ver la página aquí: [Veggie Bites](https://germanilu.github.io/Veggie-Bites/)** 
 

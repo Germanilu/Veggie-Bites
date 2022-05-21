@@ -1,4 +1,4 @@
-
+#### TOC
 - [:fork_and_knife: Restaurant Page Project, made with HTML/CSS and JavaSript](#fork_and_knife-restaurant-page-project-made-with-htmlcss-and-javasript)
   - [:avocado: Welcome to Veggie Bites Restaurant :avocado:](#avocado-welcome-to-veggie-bites-restaurant-avocado)
   - [How was it built :building_construction:](#how-was-it-built-building_construction)
@@ -9,7 +9,7 @@
     - [Menu](#menu)
     - [Responsive](#responsive-1)
     - [Contact](#contact)
-    - [Final Result](#final-result)
+  - [Final Result](#final-result)
   - [Author](#author)
       - [Luciano Germani :it:](#luciano-germani-it)
 
@@ -70,7 +70,7 @@ The last html page is the contact page, where i add the google maps iframe to ha
 
 --------------------------
 
-### Final Result
+## Final Result
 
 **You can visit the Webpage Here: [Veggie Bites](https://germanilu.github.io/Veggie-Bites/)** 
 
