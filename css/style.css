@@ -21,7 +21,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-
 }
 
 /* Navbar */
@@ -106,15 +105,14 @@ li,a{
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 5em;
-    
 }
 
 .titulo h1{
     border: 0.02em solid black;
     padding: 0.5em;
-    text-align: center;
-    
+    text-align: center; 
 }
+
 /* Division grid de los especiales del dia */
 .special-grid{
     height: 25em;
@@ -126,6 +124,7 @@ li,a{
     justify-content: center;
     gap: 0.3em;
 }
+
 /* Contenedor img + special txt */
 .special{
     width: 100%;
@@ -150,6 +149,7 @@ li,a{
     padding: 0em 1em;
     background-color: rgba(192, 192, 192, 0.212);
 }
+
 .precio-special{
     font-size: 1em;
 }
@@ -177,9 +177,6 @@ li,a{
 }
 
 /* Contenedor Sobre Nosotros */
-
-
-
 .contenedor-sobreNosotros{
     background-color: #c04138b5;
     width: 100%;
@@ -190,8 +187,8 @@ li,a{
     justify-content: space-around;
     margin-bottom: 2em;
 }
-/* Texto Sobrenosotros */
 
+/* Texto Sobrenosotros */
 .sobrenosotros-texto{
     width: 70%;
     display: flex;
@@ -240,7 +237,6 @@ li,a{
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    
 }
 
 /* Transition Logo-Carta */
@@ -273,7 +269,6 @@ li,a{
   position: absolute;
   right: 10em;
   top: 15em;
-  
 }
 
 .carta{
@@ -284,7 +279,6 @@ li,a{
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
 .contenedor-menu{
@@ -295,6 +289,7 @@ li,a{
     flex-direction: column;
     align-items: center;
 }
+
 /* Navbar Carta */
 .menu-links{
     width: 90%;
@@ -345,8 +340,8 @@ li,a{
 }
 
 
-/* Contacto */
 
+/* Contacto */
 .contenedor-header-contacto{
     height: 100vh;
     width: 100%;
@@ -376,6 +371,7 @@ li,a{
 .-titulo-contacto{
     margin-top: -2em;
 }
+
 /* Contenedor info */
 .contenedor-info-veggie{
     width: 90%;
@@ -384,6 +380,7 @@ li,a{
     border: 1px solid rgba(255, 255, 255, 0.6);
     padding: 1em;
 }
+
 /* Contenedor tel-email */
 .contenedor-telefono-email{
     height: 100%;
@@ -393,6 +390,7 @@ li,a{
     align-items: center;
     justify-content: space-between;
 }
+
 /* Contenedor app */
 .contenedor-app-reservas{
     height: 100%;
@@ -402,6 +400,7 @@ li,a{
     align-items: center;
     justify-content: space-between;
 }
+
 /* Apps */
 .contenedor-app-reservas-inside{
     width: 100%;
@@ -439,7 +438,6 @@ li,a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
 
 .opentable{
@@ -484,9 +482,9 @@ li,a{
     background-color: #e8e9eb;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly; 
 }
+
 /* Contenedor Dirección */
 .contenedor-direccion{
     width: 20%;
@@ -557,21 +555,20 @@ li,a{
 }
 
 
-/* Media Query till 1024px */
-
 
 @media (max-width: 1439px){
+
 /* Carta  */
     .contenedor-carta{
         justify-content: center;
         top: 5em;
     }
-
     .carta{
         margin-top: 1em;
     }
     
 }
+
 
 @media (max-width: 1348px){
     .titulo-special{
@@ -591,7 +588,6 @@ li,a{
 @media (max-width: 1246px){
 
     /* Carta.html */
-
     .logo-carta{
         width: 15em;
         height: 10em;
@@ -603,6 +599,7 @@ li,a{
         text-align: center;
         font-size: 0.8em;
     }
+
     .logo-carta h1{
         font-size: 1.5em;
     }
@@ -614,7 +611,6 @@ li,a{
     .contenedor-menu{
         width: 85%;
         height: 75%;
-
     }
 
     .menu-links{
@@ -624,19 +620,15 @@ li,a{
     }
 
     .linea1{
-
         font-size: 14px;
-
      }
 
      .descripcion-plato{
         font-size: 12px;
-
     }
 
     .carta{
         width: 40em;
-        
     }
 
 
@@ -645,38 +637,33 @@ li,a{
         width: 15em;
         height: 8em;
     }
-
-   
 }
 
+
 @media (max-width: 1083px){
-   
     .titulo-special{
         font-size: 0.75em;
     }
 }
 
+
 @media (max-width: 1024px){
-
-
     /* Contacto.html */
     .contenedor-contacto{
         position: initial;
         margin: 0 auto;
     }
+
     .contenedor-direccion{
         width: 30%;
     }
 
     .maps{
         width: 50%;
-
     }
 
 
-
     /* Carta.html */
-
     .menu-links{
         margin-top: 1em;
         margin-bottom: 1em;
@@ -685,7 +672,6 @@ li,a{
     .carta{
         width: 30em;
         height: 40em;
-        
     }
 
 
@@ -727,19 +713,19 @@ li,a{
 
 }
 
+
 @media (max-width: 768px){
-
     /* Carta.html */
-
     .contenedor-carta{
-
         right: 8em;
       }
-    /* Index.html */
 
+
+    /* Index.html */
     .texto-special{
         padding: 0em 0.5em;
     }
+
     .titulo-special{
         font-size: 0.8em;
     }
@@ -756,9 +742,7 @@ li,a{
 
 
 @media (max-width: 707px){
-
     /* Carta.html */
-
     .contenedor-header-carta{
         background-image: url(../img/cucharas.jpg);
         display: flex;
@@ -780,8 +764,6 @@ li,a{
         background-color: rgba(236, 236, 236, 0.573);
     }
 
-
-
     .contenedor-menu{
         width: 95%;
         height: 85%;
@@ -794,30 +776,22 @@ li,a{
     }
 
     .linea1{
-
         font-size: 14px;
         color: #c17631;
         font-weight: 700;
-
      }
 
      .descripcion-plato{
         font-size: 12px;
-       
-
     }
-
-    
 
     .carta{
         width: 30em;
         height: 35em;
-        
     }
 
 
     /* index.html */
-
     .navbar-principal{
         width: 100%;
     }
@@ -841,7 +815,6 @@ li,a{
         position: unset;
         margin-bottom: 11em;
         background-color: rgba(169, 167, 167, 0.258);
-
     }
 
 
@@ -850,8 +823,8 @@ li,a{
         height: 8em;
         font-size: 1.3em;
         right: 5em;
-
     }
+
     .special-grid{
         grid-template-columns: repeat(1,70%);
         grid-template-rows: repeat(6,33%);
@@ -865,7 +838,6 @@ li,a{
         margin: 1em 0em;
     }
 }
-
 
 
 @media (max-width: 668px){
@@ -885,24 +857,21 @@ li,a{
     .contenedor-direccion{
         width: 70%;
         height: 40%;
-
-}
+    }
 
 .maps{
     width: 70%;
     height: 50%;
-
+    }
 }
 
-
-}
 
 @media(max-width: 500px){
     /* Contacto.html */
-
     .contenedor-header-contacto{
         height: 65em;
     }
+
     .contenedor-contacto{
         width: 19em;
         height: 50em;
@@ -919,7 +888,6 @@ li,a{
         border-bottom: 1px solid black;
     }
 
-   
     .contenedor-social{
         margin-top: 10px;
     }
@@ -932,37 +900,31 @@ li,a{
 
 @media (max-width: 460px){
     /* Contacto.html */
-
     .contenedor-direccion{
         width: 90%;
-}
+    }
+
     .maps{
         width: 90%;
     }
+
 
     /* Index.html */
     .special-grid{
         grid-template-columns: repeat(1,100%);
         grid-template-rows: repeat(6,33%);
-
     }
-
-
-
 }
+
 
 
 /* Media query con implementación menu hamburguesa */
 @media (max-width: 426px){
-
-
     /* Carta.html */
-   
     .carta{
         width: 25em;
         height: 40em;
         border: none;
-        
     }
 
     .navbar-principal{
@@ -975,13 +937,11 @@ li,a{
         justify-content: space-around;              
     }
 
-
     .menu-hamburguesa{
         display: block;
         position: absolute;
         top: 1em;
         left: 1em;
-        
     }
 
     .lista-desordenada-navbar{
@@ -1008,6 +968,7 @@ li,a{
         margin-bottom: 8em;
     }
 
+
     /* Contacto */
     .lista-desordenada-navbar-contacto{
         height: 10em;
@@ -1022,14 +983,11 @@ li,a{
         padding: 0;
         margin: 0em 0em;
     }
-
-  
   
 }
 
 @media (max-width: 376px){
     /* Carta.html */
-
     .logo-carta{
         width: 10em;
     }
@@ -1046,6 +1004,7 @@ li,a{
         width: 20em;        
     }
 
+
 /* Index.html */
     .logo-principal{
         width: 14.5em;
@@ -1055,6 +1014,7 @@ li,a{
         font-size: unset;
     }
 }
+
 
 @media (max-width: 320px){
     .titulo h1{
@@ -1076,6 +1036,4 @@ li,a{
     .img-size{
         height: 20em;
     }
-
-    
 }
