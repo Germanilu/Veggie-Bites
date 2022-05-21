@@ -11,12 +11,10 @@ This is a Restaurant website made with html / css / JS completely responsive wit
 
 ## How was it built :building_construction:
 
-This project, it's made mostly with display flex and display grid. 
-
-The Home Page of the project is divided in 3 sections the header with a responsive background image and a hamburguer menu that show's up only for mobile devices, the main section of the project is characterized by the special section of the restaurant with the hover effect on the background color of the grid display.
+This project, it's made mostly with display flex and display grid the Home Page of the project is divided in 3 sections the header with a responsive background image and a hamburguer menu that show's up only for mobile devices, the main section of the project is characterized by the special section of the restaurant with the hover effect on the background color of the grid display.
 In the footer of the main page there is a about us section with a carousel made with Bootstrapt.
 
-From the Navbar you can also visit the "carta" (menu) html with the implementation of JS to swap from the starters to the desserts. 
+From the Navbar you can also visit the (menu)"carta".html were i implement JS to show the different menu. 
 
 The last html page is the contact page, where i add the google maps iframe to have a nice and interactive way to show the address of the restaurant. Also, the final user can open his favourite app to make a reservation.
 
@@ -48,7 +46,7 @@ The last html page is the contact page, where i add the google maps iframe to ha
 
 
 --------------------------
-### Menu
+### Contact
 
 ![Contact](/img/Readme-img/contact.png)
 
