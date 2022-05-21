@@ -1,3 +1,20 @@
+
+- [:fork_and_knife: Restaurant Page Project, made with HTML/CSS and JavaSript](#fork_and_knife-restaurant-page-project-made-with-htmlcss-and-javasript)
+  - [:avocado: Welcome to Veggie Bites Restaurant :avocado:](#avocado-welcome-to-veggie-bites-restaurant-avocado)
+  - [How was it built :building_construction:](#how-was-it-built-building_construction)
+  - [Some Pictures of the project :framed_picture:](#some-pictures-of-the-project-framed_picture)
+    - [Home Page](#home-page)
+    - [Responsive](#responsive)
+    - [Special Section](#special-section)
+    - [Menu](#menu)
+    - [Responsive](#responsive-1)
+    - [Contact](#contact)
+    - [Final Result](#final-result)
+  - [Author](#author)
+      - [Luciano Germani :it:](#luciano-germani-it)
+
+
+
 #  :fork_and_knife: Restaurant Page Project, made with HTML/CSS and JavaSript
 
 *If you prefer you can read this in* [Spanish](README-ESP.md)

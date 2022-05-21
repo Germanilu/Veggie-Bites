@@ -1,16 +1,33 @@
+### TOC
+- [:fork_and_knife: Proyecto Carta Restaurante Digítal HTML / CSS / JS](#fork_and_knife-proyecto-carta-restaurante-digítal-html--css--js)
+  - [:avocado: Bienvenido al restaurante Veggie Bites :avocado:](#avocado-bienvenido-al-restaurante-veggie-bites-avocado)
+  - [Realización de la página :building_construction:](#realización-de-la-página-building_construction)
+  - [Algunas imágenes del proyecto :framed_picture:](#algunas-imágenes-del-proyecto-framed_picture)
+    - [Home Page](#home-page)
+    - [Responsive](#responsive)
+    - [Special](#special)
+    - [Carta](#carta)
+    - [Responsive](#responsive-1)
+    - [Contacto](#contacto)
+    - [Resultado Final](#resultado-final)
+  - [Autor](#autor)
+      - [Luciano Germani :it:](#luciano-germani-it)
+
+
+
+
 #  :fork_and_knife: Proyecto Carta Restaurante Digítal HTML / CSS / JS
 
-*Si lo prefieres puedes leer esto en* [Ingles](README.md)
+*Si lo prefieres puedes leer esto en* [Inglés](README.md)
 
 ---------------------------
 
-
-## :avocado: Bienvenido al restaurante Veggie Bites :avocado: 
+## :avocado: Bienvenido al restaurante Veggie Bites :avocado:  
 
 Esta es una página web de un restaurante creada con HTML / CSS / JS con el objetivo de que sea una página responsive. 
 En la creación de esta web se han implementado unas animaciones de CSS, la creación de un Carousel de Bootstrap y se utilizaron librerías de JavaScript como ScrollReveal.
 
-## Realización de la página :building_construction:
+## Realización de la página :building_construction: 
 
 Para realizar este proyecto se utilizaron las propiedades flex y grid de css.
 La Home de la página está dividida en 3 secciones, en la primera parte está una imagen de background que cambia si estamos viendo la página desde un dispositivo móvil con además, la aparición de un "menú hamburguesa" ejecutado usando JS. En la mitad de la primera página se encuentran los platos recomendados con una propiedad hover que hace que el color de fondo cambie. En la última parte se encuentra un carrusel creado empleando Bootstrapt.
@@ -22,8 +39,8 @@ En el apartado de contactos he añadido un mapa usando un iframe de Google maps 
 ----------------------------------------
 
 ## Algunas imágenes del proyecto :framed_picture:
+### Home Page 
 
-### Home Page
 
 ![HomePage](/img/Readme-img/homepage.png)
 
@@ -39,7 +56,7 @@ En el apartado de contactos he añadido un mapa usando un iframe de Google maps 
 --------------------------
 ### Carta 
 
-![Carta](/img/Readme-img/menu.png)
+![Carta](/img/Readme-img/menu.png) 
 
 ### Responsive
 
