@@ -15,14 +15,17 @@
     <div class="contenedor-header-carta">
         <!-- Barra de navegación -->
         <nav class="navbar-principal">
-            <ul class="lista-desordenada-navbar">
+            <ul id="navbar" class="lista-desordenada-navbar">
                 <li><a href="index.html" class="navbar-link">Home</a></li>
                 <li><a href="index.html#special" class="navbar-link">Special</a></li>
                 <li><a href="index.html#sobreNosotros" class="navbar-link">Sobre Nosotros</a></li>
                 <li><a href="carta.html" class="navbar-link">Carta</a></li>
                 <li><a href="contacto.html" class="navbar-link">Contacto</a></li>
+                
             </ul>
+           
         </nav>
+        <div id="menu" class="menu-hamburguesa"><img src="./img/menu (2).png" alt=""></div>
         <!-- Logo con Efecto Translate -->
         <div class="contenedor-carta">
             <div class="logo-carta">
@@ -33,7 +36,7 @@
             <!-- Contenedor carta -->
             <div class="carta reveal-d200">
                 <div class="contenedor-menu">
-                    <ul class="menu-links lista-desordenada-navbar ">
+                    <ul class="menu-links lista-desordenada-navbar-menu ">
                         <li><a class="navbar-link" onclick="MostrarEntrantes()">Entrantes</a></li>
                         <li><a class="navbar-link" onclick="MostrarPrimeros()">Primeros</a></li>
                         <li><a class="navbar-link" onclick="MostrarSegundos()">Segundos</a></li>
@@ -107,5 +110,6 @@
 
     <script src="js/menu.js"></script>
     <script src="js/scrollReveal.js"></script>
+    <script src="js/responsiveNavbar.js"></script>
 </body>
 </html>

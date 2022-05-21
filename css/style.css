@@ -32,7 +32,7 @@ body{
     margin-top: 0.5em;
 }
 
-.lista-desordenada-navbar{
+.lista-desordenada-navbar, .lista-desordenada-navbar-menu {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -769,8 +769,7 @@ li,a{
     .contenedor-carta{
         justify-content: space-around;
         position: unset;
-       
-        
+        margin-bottom: -2em;
       }
 
     .logo-carta{
@@ -955,8 +954,12 @@ li,a{
 /* Media query con implementación menu hamburguesa */
 @media (max-width: 426px){
 
+   
+
 
     /* Carta.html */
+   
+
     .carta{
         width: 25em;
         height: 40em;
