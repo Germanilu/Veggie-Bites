@@ -51,7 +51,7 @@ En el apartado de contactos he añadido un mapa usando un iframe de Google maps 
 --------------------------
 ### Special
 
-![Special](/img/Readme-img/Special.png)
+![Special](/img/Readme-img/gif-special.gif)
 
 --------------------------
 ### Carta 

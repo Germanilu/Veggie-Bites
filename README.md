@@ -50,7 +50,7 @@ The last html page is the contact page, where i add the google maps iframe to ha
 --------------------------
 ### Special Section
 
-![Special](/img/Readme-img/Special.png)
+![Special](/img/Readme-img/gif-special.gif)
 
 --------------------------
 ### Menu 
