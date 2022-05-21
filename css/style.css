@@ -955,12 +955,9 @@ li,a{
 /* Media query con implementación menu hamburguesa */
 @media (max-width: 426px){
 
-   
-
 
     /* Carta.html */
    
-
     .carta{
         width: 25em;
         height: 40em;
@@ -988,7 +985,7 @@ li,a{
     }
 
     .lista-desordenada-navbar{
-        height: 15em;
+        height: 10em;
         width: 100%;
         display: none;
         align-items: center;
@@ -1000,15 +997,20 @@ li,a{
         padding: 0;
         margin: 0em 0em;
     }
+    
+    li,a{
+        font-weight: 700;
+        
+    }
 
     .navbar-principal{
         width: 100%;
-        margin-bottom: 12em;
+        margin-bottom: 8em;
     }
 
     /* Contacto */
     .lista-desordenada-navbar-contacto{
-        height: 15em;
+        height: 10em;
         width: 100%;
         display: none;
         align-items: center;
