@@ -25,7 +25,6 @@ const MostrarPostres = () =>{
     document.getElementById("primeros").style.display = "none";
     document.getElementById("segundos").style.display = "none";
     document.getElementById("postres").style.display = "";
-   
 }
 
 
