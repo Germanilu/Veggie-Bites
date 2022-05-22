@@ -365,7 +365,6 @@ li,a{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    margin-top: 0;
 }
 
 .-titulo-contacto{
@@ -873,7 +872,7 @@ li,a{
 
     .contenedor-contacto{
         width: 19em;
-        height: 50em;
+        height: 60em;
         position:initial;
         justify-content: space-evenly;
     }
@@ -936,8 +935,6 @@ li,a{
     }
 
     /* Index.html */
-  
-
     .menu-hamburguesa{
         display: block;
         position: absolute;
