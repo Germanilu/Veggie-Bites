@@ -793,7 +793,7 @@ li,a{
 
     /* index.html */
     .navbar-principal{
-        width: 100%;
+        width: 90%;
     }
 
     .lista-desordenada-navbar{
@@ -933,9 +933,7 @@ li,a{
 
 
     /* Index.html */
-    .lista-desordenada-navbar{
-        justify-content: space-around;              
-    }
+  
 
     .menu-hamburguesa{
         display: block;
@@ -944,8 +942,9 @@ li,a{
         left: 1em;
     }
 
+    
     .lista-desordenada-navbar{
-        height: 10em;
+        height: 14em;
         width: 100%;
         display: none;
         align-items: center;
@@ -960,7 +959,7 @@ li,a{
     
     li,a{
         font-weight: 700;
-        
+        padding: 10px;
     }
 
     .navbar-principal{
